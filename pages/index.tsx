@@ -1,14 +1,21 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Sidebar from '../components/Sidebar';
 
 const Home: NextPage = () => {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center py-2'>
+    <div className=''>
       <Head>
         <title>Twitter-clone</title>
       </Head>
 
-      <h1>Hello World!!</h1>
+      <main>
+        <Sidebar />
+
+        {/* feed */}
+
+        {/* widgets */}
+      </main>
     </div>
   );
 };
