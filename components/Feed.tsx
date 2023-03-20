@@ -2,9 +2,9 @@ import { RefreshIcon } from '@heroicons/react/outline';
 
 const Feed = () => {
   return (
-    <div>
-      <div className='flex flex-center justify-between'>
-        <h1>home</h1>
+    <div className='col-span-7 lg:col-span-5 border-x'>
+      <div className='flex items-center justify-between p-4'>
+        <h1 className='text-xl'>Home</h1>
         <RefreshIcon className='h-8 w-8 cursor-pointer text-twitter transition-transform duration-500 ease-out hover:rotate-180 active:scale-125' />
       </div>
     </div>
